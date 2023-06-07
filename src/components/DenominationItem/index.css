@@ -1,0 +1,16 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  background-color: #585076;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: aliceblue;
+}

@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-container {
+  background-color: #150b3e;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 500px;
+  padding-left: 30px;
+  border-radius: 8px;
+}
+.name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.letter {
+  background-color: #c6d2fe;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  color: #7c3aed;
+  margin-right: 20px;
+}
+
+.person {
+  color: #d4d2db;
+  font-size: 25px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+}
+
+.heading {
+  width: 250px;
+  font-size: 20px;
+  color: #382f5a;
+}
+
+.amount {
+  width: 200px;
+}
+
+.rupees {
+  font-size: 25px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  height: 100px;
+  margin-right: 50px;
+}
